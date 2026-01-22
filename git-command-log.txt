@@ -1,0 +1,13 @@
+mkdir vcs-task
+git init
+git add .
+git commit -m "Initial commit"
+git branch feature-branch
+git merge feature-branch
+git stash
+git stash pop
+git rebase main
+git rebase --continue
+git merge rebase-branch
+git push
+
